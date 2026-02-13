@@ -1,11 +1,39 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Foro de Deportes</title>
+    <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
-    <h1>PROYECTO 1.HTML</h1> 
+
+    <header>
+        <h1>Foro de Todos los Deportes</h1>
+        <p>Comparte tu opinión sobre tu deporte favorito</p>
+    </header>
+
+    <section class="formulario">
+        <h2>Crear publicación</h2>
+        <input type="text" id="usuario" placeholder="Tu nombre">
+
+        <select id="deporte">
+            <option value="Fútbol">Fútbol</option>
+            <option value="Baloncesto">Baloncesto</option>
+            <option value="Béisbol">Béisbol</option>
+            <option value="Tenis">Tenis</option>
+            <option value="Boxeo">Boxeo</option>
+            <option value="Otro">Otro</option>
+        </select>
+
+        <textarea id="comentario" placeholder="Escribe tu comentario"></textarea>
+        <button onclick="agregarPublicacion()">Publicar</button>
+    </section>
+
+    <section class="foro">
+        <h2>Publicaciones</h2>
+        <div id="lista-publicaciones"></div>
+    </section>
+
+    <script src="js/script.js"></script>
 </body>
 </html>
