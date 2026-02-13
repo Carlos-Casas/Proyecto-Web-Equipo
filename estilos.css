@@ -1,7 +1,59 @@
 body {
-  background-color: lightgray;
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f9;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #1e3d59;
+    color: white;
+    text-align: center;
+    padding: 20px;
 }
 
 h1 {
-  color: blue;
+    margin: 0;
+}
+
+.formulario {
+    background: white;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.formulario input,
+.formulario select,
+.formulario textarea {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+.formulario button {
+    background-color: #ff6e40;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.formulario button:hover {
+    background-color: #e85a2c;
+}
+
+.foro {
+    width: 80%;
+    margin: 20px auto;
+}
+
+.publicacion {
+    background: white;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-left: 5px solid #1e3d59;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
 }
